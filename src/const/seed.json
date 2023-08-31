@@ -1,0 +1,2322 @@
+[
+  {
+    "watch": [
+      {
+        "id": "dfc0e222-41a3-41ec-882f-37bf56321b2b",
+        "model": "Classic",
+        "dial": "Analog",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-31T03:07:31.270Z",
+        "updated_at": "2023-08-31T06:16:15.047Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "30c6c22a-74c4-43c2-8617-06a1294f5579",
+        "model": "Sporty",
+        "dial": "Digital",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-30T08:02:25.233Z",
+        "updated_at": "2023-08-30T12:09:59.819Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "fe481627-efd2-4521-8574-633faf7434b0",
+        "model": "Elegant",
+        "dial": "Roman Numerals",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T22:12:44.154Z",
+        "updated_at": "2023-08-30T12:28:30.547Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "a5aa75c5-1e24-462a-aa02-6ad73734ccf5",
+        "model": "Chronograph",
+        "dial": "Skeleton",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-31T06:17:21.178Z",
+        "updated_at": "2023-08-30T09:50:57.943Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "6430463b-254b-46b6-a854-003d35bba045",
+        "model": "Automatic",
+        "dial": "Sunburst",
+        "time_setting": "Digital",
+        "created_at": "2023-08-31T03:41:34.783Z",
+        "updated_at": "2023-08-30T14:20:18.774Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "bfd0869c-1414-4d5a-8451-7de51c191905",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T20:32:49.611Z",
+        "updated_at": "2023-08-30T16:11:59.221Z",
+        "watch_id": "dfc0e222-41a3-41ec-882f-37bf56321b2b"
+      },
+      {
+        "id": "ef652868-c69c-401b-8482-186817b21074",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T17:52:37.213Z",
+        "updated_at": "2023-08-30T11:44:05.294Z",
+        "watch_id": "6430463b-254b-46b6-a854-003d35bba045"
+      },
+      {
+        "id": "cdf49d86-1ba2-4cae-95e6-5f118fd3dd91",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T06:35:55.938Z",
+        "updated_at": "2023-08-31T01:01:12.731Z",
+        "watch_id": "6430463b-254b-46b6-a854-003d35bba045"
+      },
+      {
+        "id": "12abf42d-7f16-47a1-93f5-fda3f0996dd4",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T18:08:26.458Z",
+        "updated_at": "2023-08-30T14:02:59.515Z",
+        "watch_id": "6430463b-254b-46b6-a854-003d35bba045"
+      },
+      {
+        "id": "653ae39d-f03a-4577-bfaa-4d09f6badff2",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-31T03:37:05.680Z",
+        "updated_at": "2023-08-30T21:01:56.866Z",
+        "watch_id": "6430463b-254b-46b6-a854-003d35bba045"
+      }
+    ],
+    "customer": [
+      {
+        "id": "07c0725b-b4f0-4bf7-8af6-65ab614ee367",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-30T20:26:17.428Z",
+        "updated_at": "2023-08-31T05:20:02.627Z",
+        "watch_id": "dfc0e222-41a3-41ec-882f-37bf56321b2b"
+      },
+      {
+        "id": "4885832c-2aaf-412a-9f3a-27853b3f66c9",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "email": "daniel.anderson@example.com",
+        "password": "Secur3P@ss",
+        "created_at": "2023-08-30T23:58:27.335Z",
+        "updated_at": "2023-08-30T16:19:16.809Z",
+        "watch_id": "6430463b-254b-46b6-a854-003d35bba045"
+      },
+      {
+        "id": "326d11ce-3e80-4d29-8208-c64329201ff4",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@example.com",
+        "password": "Str0ngP@ss",
+        "created_at": "2023-08-30T16:49:52.662Z",
+        "updated_at": "2023-08-31T04:22:52.566Z",
+        "watch_id": "dfc0e222-41a3-41ec-882f-37bf56321b2b"
+      },
+      {
+        "id": "567e8b9b-7bb3-40b1-a57e-11a49f57ae9c",
+        "first_name": "James",
+        "last_name": "Brown",
+        "email": "james.brown@example.com",
+        "password": "P@ssw0rd123",
+        "created_at": "2023-08-30T08:26:52.816Z",
+        "updated_at": "2023-08-30T09:43:22.411Z",
+        "watch_id": "fe481627-efd2-4521-8574-633faf7434b0"
+      },
+      {
+        "id": "7bdc30a9-11f7-46f1-8d7b-672c8b8d1d71",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "email": "sophia.taylor@example.com",
+        "password": "P@ssw0rd!",
+        "created_at": "2023-08-30T15:22:28.551Z",
+        "updated_at": "2023-08-30T10:56:34.809Z",
+        "watch_id": "a5aa75c5-1e24-462a-aa02-6ad73734ccf5"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "9b336b5c-cfa8-4661-b61f-c404f21e914a",
+        "connectivity": false,
+        "created_at": "2023-08-31T00:51:47.435Z",
+        "updated_at": "2023-08-30T10:28:18.788Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "dfc0e222-41a3-41ec-882f-37bf56321b2b"
+      },
+      {
+        "id": "56bb8286-b7db-482c-89e4-3c46c16c23a5",
+        "connectivity": false,
+        "created_at": "2023-08-31T03:09:23.797Z",
+        "updated_at": "2023-08-30T22:06:16.370Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "dfc0e222-41a3-41ec-882f-37bf56321b2b"
+      },
+      {
+        "id": "5ee06dbc-c8b9-4da3-b37b-7cc9f6aeca5f",
+        "connectivity": true,
+        "created_at": "2023-08-31T05:43:50.951Z",
+        "updated_at": "2023-08-30T13:48:16.800Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "dfc0e222-41a3-41ec-882f-37bf56321b2b"
+      },
+      {
+        "id": "43e30122-05bf-4dd9-af4f-3be5f1372a07",
+        "connectivity": false,
+        "created_at": "2023-08-30T08:44:41.374Z",
+        "updated_at": "2023-08-30T17:27:53.969Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "6430463b-254b-46b6-a854-003d35bba045"
+      },
+      {
+        "id": "f6895239-ed74-4fab-859a-1e5f1c15d55a",
+        "connectivity": false,
+        "created_at": "2023-08-30T14:50:01.081Z",
+        "updated_at": "2023-08-31T06:04:12.553Z",
+        "bandwidth": "Wireless",
+        "watch_id": "a5aa75c5-1e24-462a-aa02-6ad73734ccf5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "43bdc4ce-15d2-4f13-8bab-d5c150212a44",
+        "email": "Winnifred18@yahoo.com",
+        "firstName": "Maia",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95091555",
+        "tenantId": null
+      },
+      {
+        "reference": "57c509db-5751-428f-a4db-41b8dced3ee8",
+        "email": "Shany42@hotmail.com",
+        "firstName": "Juanita",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77227703",
+        "tenantId": null
+      },
+      {
+        "reference": "efe4a42c-37c1-487a-87b2-9b17c5161b2f",
+        "email": "Eugene.Wunsch@gmail.com",
+        "firstName": "Johnnie",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "16ee6596-60d6-4163-9703-98f8c6a2cadc",
+        "email": "Chelsey_Koss@hotmail.com",
+        "firstName": "Jacinthe",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23062926",
+        "tenantId": null
+      },
+      {
+        "reference": "15f21b63-6cd3-4905-b5e7-9688be724bc7",
+        "email": "Ericka64@hotmail.com",
+        "firstName": "Otho",
+        "lastName": "Carter",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35540067",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "37ab6f29-fff9-4286-a3ba-b05e1f722484",
+        "model": "Submariner",
+        "dial": "Black",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-31T05:45:30.201Z",
+        "updated_at": "2023-08-30T07:13:56.276Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "62c38def-49bb-4faa-a36a-2d4fda9f5308",
+        "model": "Carrera",
+        "dial": "Blue",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-31T02:20:40.424Z",
+        "updated_at": "2023-08-30T16:45:56.214Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "d0369a92-6243-40c1-a885-5ff8e7558c13",
+        "model": "Seamaster",
+        "dial": "Silver",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-30T14:03:54.949Z",
+        "updated_at": "2023-08-30T10:28:55.357Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "fa0fd33f-8a80-4fc0-82b6-cc489bf998a4",
+        "model": "Nautilus",
+        "dial": "White",
+        "time_setting": "Manual Winding",
+        "created_at": "2023-08-30T12:47:48.954Z",
+        "updated_at": "2023-08-31T01:57:38.071Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "4c2560aa-f5c4-4ee5-afeb-dadbd5089aac",
+        "model": "Royal Oak",
+        "dial": "Grey",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T08:35:10.452Z",
+        "updated_at": "2023-08-30T15:57:23.495Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "3368887c-7e3e-437a-81a1-e8ef605eff6b",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T02:20:12.302Z",
+        "updated_at": "2023-08-30T19:58:51.747Z",
+        "watch_id": "62c38def-49bb-4faa-a36a-2d4fda9f5308"
+      },
+      {
+        "id": "0d72009b-61c8-4a1f-9813-77a6f5d239af",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-30T09:58:47.058Z",
+        "updated_at": "2023-08-30T16:31:03.900Z",
+        "watch_id": "37ab6f29-fff9-4286-a3ba-b05e1f722484"
+      },
+      {
+        "id": "91dc570f-673f-49ff-ae99-09b312f4b676",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T23:44:56.724Z",
+        "updated_at": "2023-08-31T04:26:46.210Z",
+        "watch_id": "62c38def-49bb-4faa-a36a-2d4fda9f5308"
+      },
+      {
+        "id": "61c38267-7862-48e1-8fd3-71a50eac59be",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T07:34:05.460Z",
+        "updated_at": "2023-08-31T04:36:03.449Z",
+        "watch_id": "62c38def-49bb-4faa-a36a-2d4fda9f5308"
+      },
+      {
+        "id": "fb072e9e-65ca-41df-acfd-a9bbd2d14662",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T02:12:43.710Z",
+        "updated_at": "2023-08-30T16:14:47.613Z",
+        "watch_id": "37ab6f29-fff9-4286-a3ba-b05e1f722484"
+      }
+    ],
+    "customer": [
+      {
+        "id": "62d56045-8276-4e8c-898c-d88e439e33ee",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-31T06:21:19.357Z",
+        "updated_at": "2023-08-31T06:47:20.031Z",
+        "watch_id": "d0369a92-6243-40c1-a885-5ff8e7558c13"
+      },
+      {
+        "id": "38654a74-ef22-446d-9536-974ba76521ff",
+        "first_name": "James",
+        "last_name": "Smith",
+        "email": "james.smith@example.com",
+        "password": "Secure123",
+        "created_at": "2023-08-31T01:03:21.942Z",
+        "updated_at": "2023-08-30T15:45:48.595Z",
+        "watch_id": "fa0fd33f-8a80-4fc0-82b6-cc489bf998a4"
+      },
+      {
+        "id": "d15a517c-5308-4d27-8212-9260b25bd6f7",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@example.com",
+        "password": "SecretPass",
+        "created_at": "2023-08-31T03:16:22.587Z",
+        "updated_at": "2023-08-30T19:16:21.158Z",
+        "watch_id": "37ab6f29-fff9-4286-a3ba-b05e1f722484"
+      },
+      {
+        "id": "7303e49c-2bf6-42d6-9780-b0560ec0ad54",
+        "first_name": "Benjamin",
+        "last_name": "Davis",
+        "email": "benjamin.davis@example.com",
+        "password": "StrongPwd",
+        "created_at": "2023-08-31T05:29:19.718Z",
+        "updated_at": "2023-08-30T23:19:42.286Z",
+        "watch_id": "4c2560aa-f5c4-4ee5-afeb-dadbd5089aac"
+      },
+      {
+        "id": "8e4b4109-2e0b-4aef-ba1c-7afb28f97c80",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "email": "olivia.wilson@example.com",
+        "password": "SafePassword",
+        "created_at": "2023-08-30T21:53:38.410Z",
+        "updated_at": "2023-08-31T02:38:11.477Z",
+        "watch_id": "fa0fd33f-8a80-4fc0-82b6-cc489bf998a4"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "b127bb41-6da8-44b8-8fe2-5bdaf3ff81c5",
+        "connectivity": true,
+        "created_at": "2023-08-30T22:19:04.669Z",
+        "updated_at": "2023-08-31T00:39:11.455Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "fa0fd33f-8a80-4fc0-82b6-cc489bf998a4"
+      },
+      {
+        "id": "419ea4e1-658e-4755-a136-eda2b887f3b4",
+        "connectivity": false,
+        "created_at": "2023-08-30T20:41:36.952Z",
+        "updated_at": "2023-08-30T20:23:45.413Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "d0369a92-6243-40c1-a885-5ff8e7558c13"
+      },
+      {
+        "id": "aacc9cb5-3bdd-491c-ac19-44edadea2369",
+        "connectivity": false,
+        "created_at": "2023-08-30T19:21:30.170Z",
+        "updated_at": "2023-08-30T22:24:07.998Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "37ab6f29-fff9-4286-a3ba-b05e1f722484"
+      },
+      {
+        "id": "01218109-969f-4af1-b553-3a756dc363e5",
+        "connectivity": false,
+        "created_at": "2023-08-30T11:00:39.894Z",
+        "updated_at": "2023-08-30T21:07:12.207Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "fa0fd33f-8a80-4fc0-82b6-cc489bf998a4"
+      },
+      {
+        "id": "040ed3ab-575c-4a85-847c-f7395b412d60",
+        "connectivity": false,
+        "created_at": "2023-08-30T23:39:10.593Z",
+        "updated_at": "2023-08-30T17:23:40.815Z",
+        "bandwidth": "Wi-Fi 6",
+        "watch_id": "62c38def-49bb-4faa-a36a-2d4fda9f5308"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f8cbef38-003f-4a09-a260-ec9f1b2af952",
+        "email": "Jazmyne57@hotmail.com",
+        "firstName": "Salma",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45893587",
+        "tenantId": null
+      },
+      {
+        "reference": "6783e2c9-1f5c-457f-a8aa-026ba66bb689",
+        "email": "Kobe_Rodriguez-Donnelly57@hotmail.com",
+        "firstName": "Caesar",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/460.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d1f58d74-a15e-4ad0-b41c-0e2f2fac09d4",
+        "email": "Wilfred.Crist54@yahoo.com",
+        "firstName": "Brando",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1207.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "037c8e00-9ce7-48b0-a3b4-1a1e5da9e91c",
+        "email": "Clemmie_Waelchi89@gmail.com",
+        "firstName": "Hilario",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "baa45849-bf5f-4432-afbc-23837a98b850",
+        "email": "Alana_Ullrich@yahoo.com",
+        "firstName": "Chance",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/65.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "81708bb6-366c-4273-b9d4-ded75fa23607",
+        "model": "Classic",
+        "dial": "Black",
+        "time_setting": "Analog",
+        "created_at": "2023-08-30T16:21:56.903Z",
+        "updated_at": "2023-08-30T08:51:39.359Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "3ba1f079-b9e5-42ee-be5d-69d511bde827",
+        "model": "Sport",
+        "dial": "Blue",
+        "time_setting": "Digital",
+        "created_at": "2023-08-30T11:01:53.961Z",
+        "updated_at": "2023-08-30T10:00:21.413Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "4a03cfc1-87cb-4caf-8019-40fadd3b1ef8",
+        "model": "Chronograph",
+        "dial": "White",
+        "time_setting": "Analog-Digital",
+        "created_at": "2023-08-30T15:33:34.149Z",
+        "updated_at": "2023-08-30T12:59:56.792Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "bd94db47-0adc-41ac-8151-8eb45c24e4d0",
+        "model": "Dress",
+        "dial": "Silver",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T12:07:55.108Z",
+        "updated_at": "2023-08-30T11:56:43.917Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "4fdd90e6-ca1c-41b2-b43f-ee448726b871",
+        "model": "Automatic",
+        "dial": "Rose Gold",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-30T11:08:25.575Z",
+        "updated_at": "2023-08-30T20:13:21.528Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "3254751f-6c23-4df6-8846-1626c7cded6d",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T14:01:41.820Z",
+        "updated_at": "2023-08-30T07:21:06.511Z",
+        "watch_id": "3ba1f079-b9e5-42ee-be5d-69d511bde827"
+      },
+      {
+        "id": "df49104a-7fde-4da9-a351-e9f65ba16f82",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-31T06:13:51.788Z",
+        "updated_at": "2023-08-31T03:45:09.971Z",
+        "watch_id": "81708bb6-366c-4273-b9d4-ded75fa23607"
+      },
+      {
+        "id": "c15809c3-3b8e-4b0d-b9b6-e6fa3dbd5524",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T07:01:22.711Z",
+        "updated_at": "2023-08-30T16:01:04.011Z",
+        "watch_id": "3ba1f079-b9e5-42ee-be5d-69d511bde827"
+      },
+      {
+        "id": "24fa76e0-93b5-4a0d-b4c4-62734b406458",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T03:04:58.533Z",
+        "updated_at": "2023-08-30T08:07:43.981Z",
+        "watch_id": "4a03cfc1-87cb-4caf-8019-40fadd3b1ef8"
+      },
+      {
+        "id": "e79fa7cc-4e88-46ab-8884-9700f28698b7",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T05:37:04.382Z",
+        "updated_at": "2023-08-30T14:18:07.144Z",
+        "watch_id": "81708bb6-366c-4273-b9d4-ded75fa23607"
+      }
+    ],
+    "customer": [
+      {
+        "id": "35b20baf-0b9c-424d-9c2e-866df79ffb3d",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emilyjohnson@gmail.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-30T15:18:25.389Z",
+        "updated_at": "2023-08-31T06:53:50.107Z",
+        "watch_id": "4fdd90e6-ca1c-41b2-b43f-ee448726b871"
+      },
+      {
+        "id": "85b994b8-d37d-43df-a5af-6644340685ec",
+        "first_name": "Michael",
+        "last_name": "Williams",
+        "email": "michaelwilliams@yahoo.com",
+        "password": "Secure123!",
+        "created_at": "2023-08-30T19:56:14.803Z",
+        "updated_at": "2023-08-30T22:18:53.781Z",
+        "watch_id": "81708bb6-366c-4273-b9d4-ded75fa23607"
+      },
+      {
+        "id": "db4276e0-8023-457a-802a-0eb992c0f7d9",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "email": "oliviabrown@gmail.com",
+        "password": "StrongPassword",
+        "created_at": "2023-08-31T06:44:02.728Z",
+        "updated_at": "2023-08-30T11:45:54.794Z",
+        "watch_id": "4a03cfc1-87cb-4caf-8019-40fadd3b1ef8"
+      },
+      {
+        "id": "e073e68c-353a-46c9-b28c-d9a87c6a65db",
+        "first_name": "Daniel",
+        "last_name": "Miller",
+        "email": "danmiller@hotmail.com",
+        "password": "SafePwd789",
+        "created_at": "2023-08-31T00:16:51.392Z",
+        "updated_at": "2023-08-30T17:53:59.734Z",
+        "watch_id": "3ba1f079-b9e5-42ee-be5d-69d511bde827"
+      },
+      {
+        "id": "5fa51a03-8077-4776-a360-6a6a355071b6",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "email": "sophiadavis@gmail.com",
+        "password": "Protected456",
+        "created_at": "2023-08-30T15:42:43.797Z",
+        "updated_at": "2023-08-30T20:05:05.148Z",
+        "watch_id": "4fdd90e6-ca1c-41b2-b43f-ee448726b871"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "15c92bfb-a2b9-4649-8de5-6de45a4c7e75",
+        "connectivity": false,
+        "created_at": "2023-08-31T04:54:27.294Z",
+        "updated_at": "2023-08-30T12:28:36.989Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "4a03cfc1-87cb-4caf-8019-40fadd3b1ef8"
+      },
+      {
+        "id": "e1f85ed8-d577-4820-a871-9951f5223bf8",
+        "connectivity": true,
+        "created_at": "2023-08-30T07:52:20.027Z",
+        "updated_at": "2023-08-30T17:32:16.981Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "4a03cfc1-87cb-4caf-8019-40fadd3b1ef8"
+      },
+      {
+        "id": "ec3cbe09-d862-4e4c-a553-9208a1344c60",
+        "connectivity": true,
+        "created_at": "2023-08-30T19:10:34.262Z",
+        "updated_at": "2023-08-30T17:31:46.515Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "3ba1f079-b9e5-42ee-be5d-69d511bde827"
+      },
+      {
+        "id": "e8066e2c-a779-4e10-b258-aa3bc2e626f7",
+        "connectivity": true,
+        "created_at": "2023-08-30T20:50:44.646Z",
+        "updated_at": "2023-08-31T01:32:19.565Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "bd94db47-0adc-41ac-8151-8eb45c24e4d0"
+      },
+      {
+        "id": "f9ed8460-32be-45c2-afee-04b112fe1306",
+        "connectivity": false,
+        "created_at": "2023-08-30T15:31:06.367Z",
+        "updated_at": "2023-08-31T03:26:55.879Z",
+        "bandwidth": "Wireless",
+        "watch_id": "3ba1f079-b9e5-42ee-be5d-69d511bde827"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2381d95a-027c-4ea0-bf91-372f5b98762b",
+        "email": "Raleigh32@gmail.com",
+        "firstName": "Arielle",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/375.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46354b17-dfa1-4356-ba50-015aa6c0decd",
+        "email": "Tess.Muller@hotmail.com",
+        "firstName": "Monte",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/868.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5cbfa15d-03c1-4d00-aa92-15ad5f4ead1b",
+        "email": "Maiya_Jacobi@hotmail.com",
+        "firstName": "Carmen",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/568.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61e127dc-b92a-4df2-8673-964061a36455",
+        "email": "Bertram_Hansen@yahoo.com",
+        "firstName": "Karley",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10526298",
+        "tenantId": null
+      },
+      {
+        "reference": "c0b26b70-37a1-45fd-9aa4-eb3d4e7fb8e1",
+        "email": "Jerad.Davis@yahoo.com",
+        "firstName": "Concepcion",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42438433",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "2df8acb7-3145-4bd1-9ca9-0bd846c3e9d3",
+        "model": "Classic",
+        "dial": "Analog",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T22:17:40.035Z",
+        "updated_at": "2023-08-30T17:25:23.291Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "841cf55e-b997-4a58-9c92-88c62ad6cdc1",
+        "model": "Sports",
+        "dial": "Digital",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-31T04:05:51.915Z",
+        "updated_at": "2023-08-30T15:19:22.241Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "bb2da266-2338-4b47-9b6f-a68bfcd7c5c3",
+        "model": "Chronograph",
+        "dial": "Roman Numerals",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T21:15:00.686Z",
+        "updated_at": "2023-08-30T07:50:07.975Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "60dc937e-c1e8-4746-8f80-9e09212c3ddd",
+        "model": "Automatic",
+        "dial": "Skeleton",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-30T09:03:26.876Z",
+        "updated_at": "2023-08-31T05:19:08.964Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "7a96ceeb-5c33-4ab0-b08c-24ffb3621a48",
+        "model": "Dress",
+        "dial": "Sunburst",
+        "time_setting": "Kinetic",
+        "created_at": "2023-08-30T15:00:24.125Z",
+        "updated_at": "2023-08-30T20:23:50.123Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "8a6794d7-aff7-4fe1-bd5b-37b067c993e0",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T21:31:38.930Z",
+        "updated_at": "2023-08-30T13:19:30.518Z",
+        "watch_id": "60dc937e-c1e8-4746-8f80-9e09212c3ddd"
+      },
+      {
+        "id": "3b8eb005-ba08-415e-a6e3-0741ba43715b",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-30T17:51:42.306Z",
+        "updated_at": "2023-08-31T04:08:19.484Z",
+        "watch_id": "60dc937e-c1e8-4746-8f80-9e09212c3ddd"
+      },
+      {
+        "id": "1e6c082f-4756-4fda-a6fd-642eac5c125e",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T04:55:46.851Z",
+        "updated_at": "2023-08-31T06:15:34.577Z",
+        "watch_id": "2df8acb7-3145-4bd1-9ca9-0bd846c3e9d3"
+      },
+      {
+        "id": "bb59ef79-d876-4a63-a5f8-8f00164b952a",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T05:51:15.589Z",
+        "updated_at": "2023-08-30T17:51:48.461Z",
+        "watch_id": "bb2da266-2338-4b47-9b6f-a68bfcd7c5c3"
+      },
+      {
+        "id": "5f5bf549-e052-4e20-aa0c-35ccddd0eaf5",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T21:09:26.234Z",
+        "updated_at": "2023-08-31T04:22:31.990Z",
+        "watch_id": "2df8acb7-3145-4bd1-9ca9-0bd846c3e9d3"
+      }
+    ],
+    "customer": [
+      {
+        "id": "eef7d71a-5137-4f5e-b42f-860d04e69a3b",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-31T01:57:56.440Z",
+        "updated_at": "2023-08-30T10:03:50.022Z",
+        "watch_id": "bb2da266-2338-4b47-9b6f-a68bfcd7c5c3"
+      },
+      {
+        "id": "27ac73b2-0a62-4eea-8822-045706052d80",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel@example.com",
+        "password": "Secure123",
+        "created_at": "2023-08-30T17:53:24.302Z",
+        "updated_at": "2023-08-31T04:05:02.718Z",
+        "watch_id": "7a96ceeb-5c33-4ab0-b08c-24ffb3621a48"
+      },
+      {
+        "id": "30c0b47c-23cc-4c40-9d2f-705a809158b4",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "email": "olivia@example.com",
+        "password": "StrongPwd",
+        "created_at": "2023-08-30T17:45:28.886Z",
+        "updated_at": "2023-08-30T19:02:49.071Z",
+        "watch_id": "bb2da266-2338-4b47-9b6f-a68bfcd7c5c3"
+      },
+      {
+        "id": "23d71970-139f-4c61-bc91-bfc2f152b4b5",
+        "first_name": "William",
+        "last_name": "Davis",
+        "email": "william@example.com",
+        "password": "SecretPass",
+        "created_at": "2023-08-30T07:50:16.540Z",
+        "updated_at": "2023-08-31T00:39:37.686Z",
+        "watch_id": "841cf55e-b997-4a58-9c92-88c62ad6cdc1"
+      },
+      {
+        "id": "aca32b0e-4266-4054-8924-f030239767a4",
+        "first_name": "Sophia",
+        "last_name": "Evans",
+        "email": "sophia@example.com",
+        "password": "SafePassword",
+        "created_at": "2023-08-30T22:45:10.138Z",
+        "updated_at": "2023-08-30T21:27:02.146Z",
+        "watch_id": "60dc937e-c1e8-4746-8f80-9e09212c3ddd"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "e5696c41-d92a-43ac-856b-e4c3feac3a18",
+        "connectivity": false,
+        "created_at": "2023-08-31T01:57:12.407Z",
+        "updated_at": "2023-08-31T05:25:53.434Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "7a96ceeb-5c33-4ab0-b08c-24ffb3621a48"
+      },
+      {
+        "id": "3614c867-6e33-47c4-a4ba-0922ffcf804c",
+        "connectivity": false,
+        "created_at": "2023-08-30T19:02:42.662Z",
+        "updated_at": "2023-08-31T03:54:35.758Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "60dc937e-c1e8-4746-8f80-9e09212c3ddd"
+      },
+      {
+        "id": "abd2077f-6f71-4841-a720-b0fa58dcab19",
+        "connectivity": false,
+        "created_at": "2023-08-31T05:23:17.075Z",
+        "updated_at": "2023-08-31T03:51:08.965Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "7a96ceeb-5c33-4ab0-b08c-24ffb3621a48"
+      },
+      {
+        "id": "2da3d0d7-b91c-460b-8889-1bcb124fca04",
+        "connectivity": true,
+        "created_at": "2023-08-31T02:59:34.365Z",
+        "updated_at": "2023-08-30T14:43:44.191Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "60dc937e-c1e8-4746-8f80-9e09212c3ddd"
+      },
+      {
+        "id": "1c28927f-f452-4c4f-86f5-1f52c504601f",
+        "connectivity": true,
+        "created_at": "2023-08-31T05:45:55.805Z",
+        "updated_at": "2023-08-31T03:39:51.418Z",
+        "bandwidth": "Wireless",
+        "watch_id": "7a96ceeb-5c33-4ab0-b08c-24ffb3621a48"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0d64205d-cc72-4332-bb7f-42411ed501dc",
+        "email": "Samara.Rau@hotmail.com",
+        "firstName": "Fredrick",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68901777",
+        "tenantId": null
+      },
+      {
+        "reference": "7f5b79f5-45fb-44d0-9550-a07a075c0c4f",
+        "email": "Nicholaus70@gmail.com",
+        "firstName": "Elyse",
+        "lastName": "Rice-Kohler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/570.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b419603c-a8f6-4b7d-8545-f08e7f29df3e",
+        "email": "Marcelo_Schroeder8@gmail.com",
+        "firstName": "Aletha",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/306.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f1bdac64-45b9-47c7-aeb7-03a73bd70c52",
+        "email": "Marcelo_Koss@yahoo.com",
+        "firstName": "Kristina",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51520278",
+        "tenantId": null
+      },
+      {
+        "reference": "9c7a7b96-02a8-4577-9d58-631f882c25b2",
+        "email": "Henri.Klein@hotmail.com",
+        "firstName": "Prince",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/373.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "19ca4995-fb7b-480a-a833-04495ccb0c0e",
+        "model": "Classic",
+        "dial": "Analog",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T16:46:36.609Z",
+        "updated_at": "2023-08-30T17:08:10.049Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "c2b5c087-370b-403f-8a34-f43220117231",
+        "model": "Sports Edition",
+        "dial": "Digital",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-31T04:20:34.392Z",
+        "updated_at": "2023-08-31T00:54:05.685Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "96e25798-11f2-43f4-af1b-56d37c402c54",
+        "model": "Chronograph",
+        "dial": "Dual Time",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-30T18:14:50.890Z",
+        "updated_at": "2023-08-30T10:55:32.155Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "ee73d0a7-3834-4520-88b1-3343c3079830",
+        "model": "Automatic",
+        "dial": "Skeleton",
+        "time_setting": "Solar Powered",
+        "created_at": "2023-08-30T10:52:05.131Z",
+        "updated_at": "2023-08-30T10:31:32.655Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "7a4c2b47-f188-42e5-b145-1bbceac35d09",
+        "model": "Limited Edition",
+        "dial": "Moon Phase",
+        "time_setting": "Hand-wound",
+        "created_at": "2023-08-30T14:45:11.656Z",
+        "updated_at": "2023-08-30T14:22:14.352Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "1843b3b9-dec5-45d6-8955-569b040ab3ba",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T06:36:58.546Z",
+        "updated_at": "2023-08-30T21:06:19.363Z",
+        "watch_id": "c2b5c087-370b-403f-8a34-f43220117231"
+      },
+      {
+        "id": "2527c55a-f5d0-48e9-91fb-2f84684ecad6",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T03:41:53.386Z",
+        "updated_at": "2023-08-30T11:05:21.249Z",
+        "watch_id": "96e25798-11f2-43f4-af1b-56d37c402c54"
+      },
+      {
+        "id": "fb051f9c-5fdb-470e-800e-0e7dcebd1d35",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T02:25:42.024Z",
+        "updated_at": "2023-08-30T14:30:32.485Z",
+        "watch_id": "7a4c2b47-f188-42e5-b145-1bbceac35d09"
+      },
+      {
+        "id": "07d722ad-66b7-44ce-a660-b19b9471797f",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T12:26:37.948Z",
+        "updated_at": "2023-08-31T06:23:29.136Z",
+        "watch_id": "c2b5c087-370b-403f-8a34-f43220117231"
+      },
+      {
+        "id": "2c62034a-520c-4c8a-810b-7ef5dc7674f0",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T23:03:04.998Z",
+        "updated_at": "2023-08-30T15:30:36.719Z",
+        "watch_id": "ee73d0a7-3834-4520-88b1-3343c3079830"
+      }
+    ],
+    "customer": [
+      {
+        "id": "e7a8eb0b-746f-45ce-ba26-534eda459d1b",
+        "first_name": "Oliver",
+        "last_name": "Smith",
+        "email": "oliver@example.com",
+        "password": "p@ssw0rd",
+        "created_at": "2023-08-30T20:53:30.644Z",
+        "updated_at": "2023-08-30T21:05:06.955Z",
+        "watch_id": "19ca4995-fb7b-480a-a833-04495ccb0c0e"
+      },
+      {
+        "id": "8c748920-c970-4cf1-a169-5d7994792416",
+        "first_name": "Sophia",
+        "last_name": "Johnson",
+        "email": "sophia@example.com",
+        "password": "secure123",
+        "created_at": "2023-08-30T10:13:20.881Z",
+        "updated_at": "2023-08-30T12:00:57.681Z",
+        "watch_id": "ee73d0a7-3834-4520-88b1-3343c3079830"
+      },
+      {
+        "id": "d2ff148f-41f6-4cb0-a5d9-5c32d3603677",
+        "first_name": "William",
+        "last_name": "Brown",
+        "email": "william@example.com",
+        "password": "mySecret!",
+        "created_at": "2023-08-30T23:26:01.086Z",
+        "updated_at": "2023-08-30T10:06:59.822Z",
+        "watch_id": "ee73d0a7-3834-4520-88b1-3343c3079830"
+      },
+      {
+        "id": "daa44eaf-80fb-4276-8396-5a6ca2b89906",
+        "first_name": "Isabella",
+        "last_name": "Davis",
+        "email": "isabella@example.com",
+        "password": "password123",
+        "created_at": "2023-08-31T01:27:15.051Z",
+        "updated_at": "2023-08-30T13:26:36.058Z",
+        "watch_id": "19ca4995-fb7b-480a-a833-04495ccb0c0e"
+      },
+      {
+        "id": "2b606e76-1028-4349-ac56-7dc76251e7e7",
+        "first_name": "James",
+        "last_name": "Miller",
+        "email": "james@example.com",
+        "password": "strongPass",
+        "created_at": "2023-08-30T09:26:44.188Z",
+        "updated_at": "2023-08-31T06:44:24.620Z",
+        "watch_id": "96e25798-11f2-43f4-af1b-56d37c402c54"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "a02e3152-0fa8-47ee-a803-eb5814fdea66",
+        "connectivity": false,
+        "created_at": "2023-08-30T12:51:40.176Z",
+        "updated_at": "2023-08-30T21:58:11.520Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "c2b5c087-370b-403f-8a34-f43220117231"
+      },
+      {
+        "id": "51c79e91-33ec-4da8-b09c-97ee406fb183",
+        "connectivity": false,
+        "created_at": "2023-08-30T16:03:36.275Z",
+        "updated_at": "2023-08-30T21:48:07.531Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "ee73d0a7-3834-4520-88b1-3343c3079830"
+      },
+      {
+        "id": "687a17df-940a-4ff7-ad02-abdef00c4270",
+        "connectivity": true,
+        "created_at": "2023-08-30T12:47:47.981Z",
+        "updated_at": "2023-08-30T11:36:00.706Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "7a4c2b47-f188-42e5-b145-1bbceac35d09"
+      },
+      {
+        "id": "2639a432-4fc5-4046-ac7b-321fc0ccb9d9",
+        "connectivity": false,
+        "created_at": "2023-08-30T15:36:37.907Z",
+        "updated_at": "2023-08-31T00:38:56.242Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "c2b5c087-370b-403f-8a34-f43220117231"
+      },
+      {
+        "id": "f8ba0f23-16af-4150-a5f2-a6bacb746520",
+        "connectivity": false,
+        "created_at": "2023-08-30T09:33:58.450Z",
+        "updated_at": "2023-08-31T05:40:33.891Z",
+        "bandwidth": "Wireless",
+        "watch_id": "ee73d0a7-3834-4520-88b1-3343c3079830"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "996c48d3-9c11-4589-906c-bbbc0c9e09eb",
+        "email": "Salvador_Davis@hotmail.com",
+        "firstName": "Marietta",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1036.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8fe9d300-c655-4d89-b4b4-ceaa08a2a044",
+        "email": "Sarai56@hotmail.com",
+        "firstName": "Mallie",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/579.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "588056d3-f5ca-4d0a-bda1-1bd7bfbdd053",
+        "email": "Brayan.Mraz@hotmail.com",
+        "firstName": "Elinore",
+        "lastName": "Donnelly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1115.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb4023f4-ea24-4f35-bffe-d39713ee859d",
+        "email": "Dino_Thiel84@hotmail.com",
+        "firstName": "Giovanni",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/818.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce30a552-802d-42ff-a7b0-7bd2b58f1cc5",
+        "email": "Deshaun_Hammes83@yahoo.com",
+        "firstName": "Maymie",
+        "lastName": "Fisher",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20917366",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "b50f22d5-2e45-464e-9a7f-a52bafa209a8",
+        "model": "Classic",
+        "dial": "Analog",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T23:16:48.301Z",
+        "updated_at": "2023-08-31T02:25:52.602Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "f005aaa9-6ecb-4117-9174-18c9bba19220",
+        "model": "Sport",
+        "dial": "Digital",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-30T14:33:38.315Z",
+        "updated_at": "2023-08-30T11:31:12.837Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "c241dd5c-f135-4b99-b710-bbc893786859",
+        "model": "Chronograph",
+        "dial": "Chronograph",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-30T18:24:54.084Z",
+        "updated_at": "2023-08-30T09:54:58.599Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "1c861c58-c7b4-4c6c-8ea8-8ea834b0b916",
+        "model": "Dress",
+        "dial": "Skeleton",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T17:51:01.100Z",
+        "updated_at": "2023-08-30T21:28:11.744Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "3e186ca7-27d1-4d99-b9a8-de1be1440801",
+        "model": "Automatic",
+        "dial": "Moonphase",
+        "time_setting": "Kinetic",
+        "created_at": "2023-08-30T20:53:45.812Z",
+        "updated_at": "2023-08-30T12:44:52.837Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "0f092a15-146d-4577-a568-51a2dc77c2b9",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-31T05:52:50.607Z",
+        "updated_at": "2023-08-30T13:09:33.485Z",
+        "watch_id": "f005aaa9-6ecb-4117-9174-18c9bba19220"
+      },
+      {
+        "id": "5dfa2467-0923-44fb-8e22-8fa7c704877e",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T13:44:41.483Z",
+        "updated_at": "2023-08-31T03:45:59.935Z",
+        "watch_id": "f005aaa9-6ecb-4117-9174-18c9bba19220"
+      },
+      {
+        "id": "499de3d8-1834-410b-9257-d84a638b54da",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-30T09:28:03.001Z",
+        "updated_at": "2023-08-30T18:06:33.816Z",
+        "watch_id": "b50f22d5-2e45-464e-9a7f-a52bafa209a8"
+      },
+      {
+        "id": "4b6d5dd3-93a6-47d3-adcd-1fc47e99810e",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T01:42:47.034Z",
+        "updated_at": "2023-08-30T17:46:28.292Z",
+        "watch_id": "1c861c58-c7b4-4c6c-8ea8-8ea834b0b916"
+      },
+      {
+        "id": "315c98cb-bc0f-4ddc-a9c6-bef7d2089732",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T23:31:52.026Z",
+        "updated_at": "2023-08-31T03:59:04.805Z",
+        "watch_id": "c241dd5c-f135-4b99-b710-bbc893786859"
+      }
+    ],
+    "customer": [
+      {
+        "id": "88dc745b-e258-4014-84b0-5ac457adb529",
+        "first_name": "Robert",
+        "last_name": "Johnson",
+        "email": "robert.johnson@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-30T10:21:12.432Z",
+        "updated_at": "2023-08-30T15:04:30.849Z",
+        "watch_id": "3e186ca7-27d1-4d99-b9a8-de1be1440801"
+      },
+      {
+        "id": "0474ac68-c6d0-4974-ad37-59e1e74beff1",
+        "first_name": "Jennifer",
+        "last_name": "Brown",
+        "email": "jennifer.brown@example.com",
+        "password": "SecurePassword123",
+        "created_at": "2023-08-30T08:57:55.741Z",
+        "updated_at": "2023-08-30T15:31:46.304Z",
+        "watch_id": "b50f22d5-2e45-464e-9a7f-a52bafa209a8"
+      },
+      {
+        "id": "a4cdabb5-e45a-4045-8957-d0f9857c9523",
+        "first_name": "Christopher",
+        "last_name": "Davis",
+        "email": "christopher.davis@example.com",
+        "password": "MySecret123",
+        "created_at": "2023-08-30T14:32:41.274Z",
+        "updated_at": "2023-08-31T06:37:56.824Z",
+        "watch_id": "3e186ca7-27d1-4d99-b9a8-de1be1440801"
+      },
+      {
+        "id": "6eec0472-6f9c-478d-a600-0564efe213e5",
+        "first_name": "Emily",
+        "last_name": "Miller",
+        "email": "emily.miller@example.com",
+        "password": "StrongPassword",
+        "created_at": "2023-08-30T13:47:35.158Z",
+        "updated_at": "2023-08-30T23:16:10.179Z",
+        "watch_id": "c241dd5c-f135-4b99-b710-bbc893786859"
+      },
+      {
+        "id": "45155f4a-258c-42c7-a1bc-0f3bdacd4881",
+        "first_name": "Daniel",
+        "last_name": "Wilson",
+        "email": "daniel.wilson@example.com",
+        "password": "SafePassword!",
+        "created_at": "2023-08-31T01:22:18.108Z",
+        "updated_at": "2023-08-31T00:58:48.408Z",
+        "watch_id": "3e186ca7-27d1-4d99-b9a8-de1be1440801"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "42d0d872-236a-4336-9b19-0678482e45c3",
+        "connectivity": false,
+        "created_at": "2023-08-31T02:00:55.014Z",
+        "updated_at": "2023-08-30T14:34:11.599Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "f005aaa9-6ecb-4117-9174-18c9bba19220"
+      },
+      {
+        "id": "81f67444-b6a7-4b59-a5ca-a44196de6342",
+        "connectivity": true,
+        "created_at": "2023-08-30T12:46:26.135Z",
+        "updated_at": "2023-08-30T07:46:21.681Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "1c861c58-c7b4-4c6c-8ea8-8ea834b0b916"
+      },
+      {
+        "id": "e1c7b9b1-b31d-4be5-ba9d-a020ff682d13",
+        "connectivity": false,
+        "created_at": "2023-08-30T18:03:51.886Z",
+        "updated_at": "2023-08-30T08:10:50.999Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "b50f22d5-2e45-464e-9a7f-a52bafa209a8"
+      },
+      {
+        "id": "dd24f8d4-d7da-46a9-a9f8-214539ff7097",
+        "connectivity": false,
+        "created_at": "2023-08-30T18:19:59.644Z",
+        "updated_at": "2023-08-31T05:49:28.069Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "3e186ca7-27d1-4d99-b9a8-de1be1440801"
+      },
+      {
+        "id": "85cb51e6-94d7-4711-8e37-7b3708954552",
+        "connectivity": true,
+        "created_at": "2023-08-31T03:23:21.040Z",
+        "updated_at": "2023-08-31T04:04:32.104Z",
+        "bandwidth": "Wireless",
+        "watch_id": "b50f22d5-2e45-464e-9a7f-a52bafa209a8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4e674cec-c95a-4e6c-916a-5235743205ac",
+        "email": "Silas_Hills@gmail.com",
+        "firstName": "Maggie",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/357.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e6267429-08ec-43cd-bce5-536d3056bc82",
+        "email": "Pasquale_Roob3@gmail.com",
+        "firstName": "Baron",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76989408",
+        "tenantId": null
+      },
+      {
+        "reference": "a57928dd-f593-4c6f-ad03-7234cd1d92dc",
+        "email": "Mckenzie.Conn@hotmail.com",
+        "firstName": "Ottilie",
+        "lastName": "Okuneva",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1152.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7eacee6-713c-4e08-8907-b8259eab8b54",
+        "email": "Alfredo13@gmail.com",
+        "firstName": "Jannie",
+        "lastName": "Connelly-Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e8ef6acc-cabd-486e-8de6-e4ee00d13873",
+        "email": "Lamar47@gmail.com",
+        "firstName": "Janick",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23290371",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "b0a86d6d-da06-4168-b0ba-8aa1317de1e3",
+        "model": "Classic",
+        "dial": "Analog",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-30T13:02:34.710Z",
+        "updated_at": "2023-08-30T09:45:14.201Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "29bf2e19-9894-4cf1-92a3-240ff31f168a",
+        "model": "Sporty",
+        "dial": "Digital",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-31T06:07:29.511Z",
+        "updated_at": "2023-08-30T15:09:39.570Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "aa4d8a8d-3b28-4086-a77f-d398ed268971",
+        "model": "Vintage",
+        "dial": "Chronograph",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-30T17:58:03.993Z",
+        "updated_at": "2023-08-30T07:52:45.593Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "6d5ed3ff-bc16-4e0c-a161-6ac06f6066d0",
+        "model": "Modern",
+        "dial": "Skeleton",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T20:25:53.641Z",
+        "updated_at": "2023-08-30T09:37:07.819Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "ed6c3845-341c-4f51-ad43-a0903c24c2e3",
+        "model": "Minimalist",
+        "dial": "Moonphase",
+        "time_setting": "Kinetic",
+        "created_at": "2023-08-30T13:19:46.000Z",
+        "updated_at": "2023-08-30T19:31:02.822Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "c45880fd-33d5-422e-857d-2b3abfc42067",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-30T16:01:25.278Z",
+        "updated_at": "2023-08-30T14:51:59.849Z",
+        "watch_id": "6d5ed3ff-bc16-4e0c-a161-6ac06f6066d0"
+      },
+      {
+        "id": "3796008a-9a96-4902-91c7-b39ceb09e365",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T10:23:32.114Z",
+        "updated_at": "2023-08-30T21:14:55.492Z",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      },
+      {
+        "id": "76fde9f0-2098-4200-97f8-859adbe2de03",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T04:54:35.728Z",
+        "updated_at": "2023-08-30T09:30:58.212Z",
+        "watch_id": "ed6c3845-341c-4f51-ad43-a0903c24c2e3"
+      },
+      {
+        "id": "caeb2e22-f50f-4503-88f1-fc49533198c4",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T09:23:57.710Z",
+        "updated_at": "2023-08-30T19:02:31.948Z",
+        "watch_id": "aa4d8a8d-3b28-4086-a77f-d398ed268971"
+      },
+      {
+        "id": "5d3018d4-cc28-4c4d-bee9-6e2a891e3cc2",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-31T00:17:41.847Z",
+        "updated_at": "2023-08-30T14:01:53.654Z",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      }
+    ],
+    "customer": [
+      {
+        "id": "f90d72bc-98df-497b-aa23-d69667d1bbae",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-30T09:40:40.748Z",
+        "updated_at": "2023-08-30T12:16:57.465Z",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      },
+      {
+        "id": "ffd14f41-0f22-453d-87a0-0fdb927a221a",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "email": "daniel.anderson@example.com",
+        "password": "Secure123",
+        "created_at": "2023-08-30T22:38:10.763Z",
+        "updated_at": "2023-08-30T21:33:11.478Z",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      },
+      {
+        "id": "28e04c2d-c4ee-4c1c-83af-89b21f12be65",
+        "first_name": "Olivia",
+        "last_name": "Williams",
+        "email": "olivia.williams@example.com",
+        "password": "Secret!23",
+        "created_at": "2023-08-30T22:46:03.897Z",
+        "updated_at": "2023-08-30T15:55:35.182Z",
+        "watch_id": "b0a86d6d-da06-4168-b0ba-8aa1317de1e3"
+      },
+      {
+        "id": "db577d81-0f69-42cc-8f5e-16a75aa9ab2e",
+        "first_name": "James",
+        "last_name": "Brown",
+        "email": "james.brown@example.com",
+        "password": "Password123",
+        "created_at": "2023-08-31T07:01:01.869Z",
+        "updated_at": "2023-08-31T06:46:09.839Z",
+        "watch_id": "b0a86d6d-da06-4168-b0ba-8aa1317de1e3"
+      },
+      {
+        "id": "83c4055b-2a4f-4582-9587-3b766323665c",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "email": "sophia.taylor@example.com",
+        "password": "SafePassword",
+        "created_at": "2023-08-31T06:01:51.712Z",
+        "updated_at": "2023-08-30T14:14:24.736Z",
+        "watch_id": "aa4d8a8d-3b28-4086-a77f-d398ed268971"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "f9053ebb-6ba5-4e6d-828a-cd0e1219876a",
+        "connectivity": true,
+        "created_at": "2023-08-30T14:38:30.370Z",
+        "updated_at": "2023-08-30T12:07:46.423Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "b0a86d6d-da06-4168-b0ba-8aa1317de1e3"
+      },
+      {
+        "id": "0e9d0c52-db92-4a52-92e3-a5987aba35d5",
+        "connectivity": true,
+        "created_at": "2023-08-30T07:25:56.310Z",
+        "updated_at": "2023-08-30T23:11:07.533Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      },
+      {
+        "id": "3e6359af-d608-4039-8055-b1b872d678a0",
+        "connectivity": true,
+        "created_at": "2023-08-31T03:55:27.335Z",
+        "updated_at": "2023-08-30T10:34:58.261Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      },
+      {
+        "id": "10605a3f-f725-4efd-b141-3cb36638382b",
+        "connectivity": true,
+        "created_at": "2023-08-30T23:45:22.377Z",
+        "updated_at": "2023-08-30T12:17:04.712Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "ed6c3845-341c-4f51-ad43-a0903c24c2e3"
+      },
+      {
+        "id": "b62a8f8c-66fa-419f-86ae-92175c376950",
+        "connectivity": false,
+        "created_at": "2023-08-30T14:56:03.264Z",
+        "updated_at": "2023-08-31T04:28:13.614Z",
+        "bandwidth": "Wireless",
+        "watch_id": "29bf2e19-9894-4cf1-92a3-240ff31f168a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "28b97ea4-69c1-473d-8211-6bf3b656f87e",
+        "email": "Kyra_Bernhard17@hotmail.com",
+        "firstName": "Sterling",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42781201",
+        "tenantId": null
+      },
+      {
+        "reference": "fb80ccde-2e5f-4703-b10c-372080251308",
+        "email": "Annie.Rempel@yahoo.com",
+        "firstName": "Audra",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27193683",
+        "tenantId": null
+      },
+      {
+        "reference": "679c81e5-6f79-40b8-a936-38e6fd2e284f",
+        "email": "Willow_Cole@yahoo.com",
+        "firstName": "Merl",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16640567",
+        "tenantId": null
+      },
+      {
+        "reference": "cf3669ec-d55e-4b32-bc7c-2deaa046e39c",
+        "email": "Gladyce_Champlin@gmail.com",
+        "firstName": "Kara",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27440923",
+        "tenantId": null
+      },
+      {
+        "reference": "c4a7d766-60d9-4232-87ea-17efd540aa36",
+        "email": "Talia61@yahoo.com",
+        "firstName": "Nils",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2310682",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "d94fd866-b279-4e37-a9f8-e5f5132455b7",
+        "model": "Classic",
+        "dial": "Analog",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T18:22:32.001Z",
+        "updated_at": "2023-08-31T04:24:58.829Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "7b99ca32-1ed5-492b-b116-6961ed0d8816",
+        "model": "Sport",
+        "dial": "Digital",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-31T04:16:16.885Z",
+        "updated_at": "2023-08-30T12:15:25.408Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "aa7d80ad-f4ee-4a59-bf84-5468deaddb12",
+        "model": "Chronograph",
+        "dial": "Roman Numerals",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-30T19:27:10.595Z",
+        "updated_at": "2023-08-30T13:27:37.179Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42",
+        "model": "Automatic",
+        "dial": "Skeleton",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T10:34:33.308Z",
+        "updated_at": "2023-08-30T14:45:28.008Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "f91e3706-f334-4d7d-a859-e97d6ee96e8e",
+        "model": "Dress",
+        "dial": "Sunburst",
+        "time_setting": "Kinetic",
+        "created_at": "2023-08-31T05:08:58.753Z",
+        "updated_at": "2023-08-31T01:10:38.962Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "488cfd70-c1b1-4d0b-8759-3d72011f97d8",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-30T13:23:16.723Z",
+        "updated_at": "2023-08-30T12:57:29.964Z",
+        "watch_id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42"
+      },
+      {
+        "id": "bbe679b2-235b-4dff-9115-21176982e4ad",
+        "heart_rate": false,
+        "spo2": false,
+        "created_at": "2023-08-31T05:47:05.537Z",
+        "updated_at": "2023-08-31T04:02:47.708Z",
+        "watch_id": "aa7d80ad-f4ee-4a59-bf84-5468deaddb12"
+      },
+      {
+        "id": "b3ab0b04-e80e-4f20-93f0-f14b9ac9048e",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-30T10:47:48.308Z",
+        "updated_at": "2023-08-30T22:14:28.663Z",
+        "watch_id": "7b99ca32-1ed5-492b-b116-6961ed0d8816"
+      },
+      {
+        "id": "61fcdb85-a345-4138-a35c-8155ef14641a",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T12:11:51.160Z",
+        "updated_at": "2023-08-30T15:58:04.761Z",
+        "watch_id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42"
+      },
+      {
+        "id": "96d44393-7f8c-4899-8b38-c7360bc67a42",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T18:39:33.607Z",
+        "updated_at": "2023-08-30T20:16:44.733Z",
+        "watch_id": "aa7d80ad-f4ee-4a59-bf84-5468deaddb12"
+      }
+    ],
+    "customer": [
+      {
+        "id": "a41bc824-0bcc-4ac5-968b-f603421f05e1",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-30T07:27:15.694Z",
+        "updated_at": "2023-08-30T19:32:34.738Z",
+        "watch_id": "d94fd866-b279-4e37-a9f8-e5f5132455b7"
+      },
+      {
+        "id": "e4e8ae83-766a-4288-8755-860501a181e8",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "password": "Secure123!",
+        "created_at": "2023-08-30T22:24:10.574Z",
+        "updated_at": "2023-08-31T04:12:31.430Z",
+        "watch_id": "d94fd866-b279-4e37-a9f8-e5f5132455b7"
+      },
+      {
+        "id": "2952440c-f564-497e-ba43-c9c59bf00e9b",
+        "first_name": "Olivia",
+        "last_name": "Miller",
+        "email": "olivia.miller@example.com",
+        "password": "StrongPwd",
+        "created_at": "2023-08-30T21:27:30.303Z",
+        "updated_at": "2023-08-31T07:11:19.426Z",
+        "watch_id": "d94fd866-b279-4e37-a9f8-e5f5132455b7"
+      },
+      {
+        "id": "f41f92c6-749f-4984-b936-cf13356e582e",
+        "first_name": "James",
+        "last_name": "Davis",
+        "email": "james.davis@example.com",
+        "password": "SafePassword",
+        "created_at": "2023-08-30T17:26:54.665Z",
+        "updated_at": "2023-08-30T07:47:28.817Z",
+        "watch_id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42"
+      },
+      {
+        "id": "5b44e838-0625-4a06-abcd-677eaade35a7",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "email": "sophia.wilson@example.com",
+        "password": "ProtectedPwd",
+        "created_at": "2023-08-30T23:15:46.455Z",
+        "updated_at": "2023-08-31T06:01:26.204Z",
+        "watch_id": "f91e3706-f334-4d7d-a859-e97d6ee96e8e"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "877bb4d8-feb7-4b8b-9614-d91b20210b7d",
+        "connectivity": true,
+        "created_at": "2023-08-31T01:08:21.374Z",
+        "updated_at": "2023-08-31T04:19:42.141Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42"
+      },
+      {
+        "id": "a60296ab-7e93-496c-9c7b-303e269ef453",
+        "connectivity": true,
+        "created_at": "2023-08-30T19:34:07.834Z",
+        "updated_at": "2023-08-30T22:40:44.451Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42"
+      },
+      {
+        "id": "5511b18c-7c5a-4ef4-8386-7583318b0219",
+        "connectivity": true,
+        "created_at": "2023-08-30T17:57:54.681Z",
+        "updated_at": "2023-08-30T11:04:26.410Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "d94fd866-b279-4e37-a9f8-e5f5132455b7"
+      },
+      {
+        "id": "acc77abf-fcdc-4262-9400-e4ccdf8d7299",
+        "connectivity": false,
+        "created_at": "2023-08-30T21:19:30.666Z",
+        "updated_at": "2023-08-30T22:45:03.303Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "05fc67cd-0101-47a4-8a8d-bad2fe55ca42"
+      },
+      {
+        "id": "321b2b1e-aba1-4184-a196-d6000fad0df8",
+        "connectivity": true,
+        "created_at": "2023-08-30T22:01:14.540Z",
+        "updated_at": "2023-08-30T08:56:14.430Z",
+        "bandwidth": "Wireless",
+        "watch_id": "d94fd866-b279-4e37-a9f8-e5f5132455b7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f5b66e93-91cd-4e64-abe4-4532cb29bc82",
+        "email": "Ila68@yahoo.com",
+        "firstName": "Trudie",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aabe3383-7a5b-445c-849c-7c004e417bc0",
+        "email": "Asha29@gmail.com",
+        "firstName": "Leon",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b19af21-b683-4d30-9481-95ffcd5501d0",
+        "email": "Buster.Weimann@hotmail.com",
+        "firstName": "Jermey",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42954791",
+        "tenantId": null
+      },
+      {
+        "reference": "455aa2e2-ac66-40e1-ae40-2181049e5b42",
+        "email": "Daphnee69@gmail.com",
+        "firstName": "Elmer",
+        "lastName": "Hackett",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11019629",
+        "tenantId": null
+      },
+      {
+        "reference": "95fb7516-c7ad-4556-af13-c591c700e499",
+        "email": "Hertha_Koch@gmail.com",
+        "firstName": "Meaghan",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6401691",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "829a524d-bf0e-4475-9552-f1fd7b631151",
+        "model": "Model 1",
+        "dial": "Analog",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-31T03:01:18.361Z",
+        "updated_at": "2023-08-31T02:57:16.828Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "48d6b6a4-ee72-4667-bf08-586381a1d8d7",
+        "model": "Model 2",
+        "dial": "Digital",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T23:04:28.168Z",
+        "updated_at": "2023-08-31T04:06:18.110Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "346ee894-36ef-4d2b-ab53-3625bc8aaf9e",
+        "model": "Model 3",
+        "dial": "Chronograph",
+        "time_setting": "Mechanical",
+        "created_at": "2023-08-30T18:56:42.293Z",
+        "updated_at": "2023-08-31T02:36:38.969Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3",
+        "model": "Model 4",
+        "dial": "Skeleton",
+        "time_setting": "Solar",
+        "created_at": "2023-08-30T17:22:05.521Z",
+        "updated_at": "2023-08-30T15:46:20.840Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "e16f9a58-f72d-46b4-9e5d-6bb725604eb2",
+        "model": "Model 5",
+        "dial": "Moonphase",
+        "time_setting": "Kinetic",
+        "created_at": "2023-08-30T10:56:48.624Z",
+        "updated_at": "2023-08-31T07:05:24.507Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "a7fc27e5-86f3-4e71-a235-7452eff018b9",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T02:17:59.797Z",
+        "updated_at": "2023-08-31T04:18:10.533Z",
+        "watch_id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3"
+      },
+      {
+        "id": "a0b5ec1e-4015-49f3-8546-9476e3fbd633",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-31T07:11:28.082Z",
+        "updated_at": "2023-08-31T06:06:12.955Z",
+        "watch_id": "48d6b6a4-ee72-4667-bf08-586381a1d8d7"
+      },
+      {
+        "id": "29579813-91bb-4f80-93f4-964b5e420d61",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T19:18:10.709Z",
+        "updated_at": "2023-08-31T02:31:34.422Z",
+        "watch_id": "e16f9a58-f72d-46b4-9e5d-6bb725604eb2"
+      },
+      {
+        "id": "fd8a2853-8eee-4a27-8210-f73b220466bd",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-31T01:44:41.698Z",
+        "updated_at": "2023-08-30T22:49:44.383Z",
+        "watch_id": "48d6b6a4-ee72-4667-bf08-586381a1d8d7"
+      },
+      {
+        "id": "8ca2eaf7-b0fa-48fe-91cc-4a698ffc6871",
+        "heart_rate": true,
+        "spo2": true,
+        "created_at": "2023-08-30T11:15:25.696Z",
+        "updated_at": "2023-08-31T03:45:07.071Z",
+        "watch_id": "48d6b6a4-ee72-4667-bf08-586381a1d8d7"
+      }
+    ],
+    "customer": [
+      {
+        "id": "fd2eb57a-9e21-4394-8a5d-7f5dd7d35d58",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-30T12:55:35.116Z",
+        "updated_at": "2023-08-30T09:02:12.709Z",
+        "watch_id": "e16f9a58-f72d-46b4-9e5d-6bb725604eb2"
+      },
+      {
+        "id": "29f090a8-d9fa-44e5-ba1f-a70746f760ce",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "password": "Secure123",
+        "created_at": "2023-08-31T07:13:06.583Z",
+        "updated_at": "2023-08-31T05:27:35.764Z",
+        "watch_id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3"
+      },
+      {
+        "id": "74526237-fbf2-4cc7-a047-0c12c120dbc6",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "email": "olivia.smith@example.com",
+        "password": "StrongPassword",
+        "created_at": "2023-08-30T10:33:10.940Z",
+        "updated_at": "2023-08-30T09:43:27.629Z",
+        "watch_id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3"
+      },
+      {
+        "id": "50af2287-4f05-4017-9f45-9d4504a1e971",
+        "first_name": "James",
+        "last_name": "Wilson",
+        "email": "james.wilson@example.com",
+        "password": "SafePass",
+        "created_at": "2023-08-30T20:49:18.061Z",
+        "updated_at": "2023-08-30T09:19:21.121Z",
+        "watch_id": "e16f9a58-f72d-46b4-9e5d-6bb725604eb2"
+      },
+      {
+        "id": "cf5968db-0dd5-4d91-bd98-55ab4122908a",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "email": "sophia.davis@example.com",
+        "password": "Protected!",
+        "created_at": "2023-08-30T18:11:39.435Z",
+        "updated_at": "2023-08-31T06:46:25.611Z",
+        "watch_id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "35ca0d9f-dd77-4e7a-aaf9-833b136bacd9",
+        "connectivity": true,
+        "created_at": "2023-08-30T21:19:54.943Z",
+        "updated_at": "2023-08-30T16:23:08.625Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3"
+      },
+      {
+        "id": "f6e422d6-79ad-4e17-a448-dd3368a73ee8",
+        "connectivity": true,
+        "created_at": "2023-08-31T05:08:04.350Z",
+        "updated_at": "2023-08-30T13:32:13.246Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "e16f9a58-f72d-46b4-9e5d-6bb725604eb2"
+      },
+      {
+        "id": "33514d75-8968-4ff2-86b8-7fda52943769",
+        "connectivity": false,
+        "created_at": "2023-08-30T14:12:06.284Z",
+        "updated_at": "2023-08-30T20:05:17.995Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "f5cafe7b-4496-41d8-8bc0-69ed5d5285d3"
+      },
+      {
+        "id": "abee7067-f232-43ea-a6ab-bf5a32d1d822",
+        "connectivity": false,
+        "created_at": "2023-08-30T18:50:45.484Z",
+        "updated_at": "2023-08-30T22:35:27.994Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "48d6b6a4-ee72-4667-bf08-586381a1d8d7"
+      },
+      {
+        "id": "a66c1437-08e9-41df-8ad7-28ad88c067ae",
+        "connectivity": false,
+        "created_at": "2023-08-30T08:26:38.956Z",
+        "updated_at": "2023-08-30T17:02:04.388Z",
+        "bandwidth": "Wireless",
+        "watch_id": "48d6b6a4-ee72-4667-bf08-586381a1d8d7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d5d977e-6cd9-400e-bd41-8180a7a11a2f",
+        "email": "Kyla93@yahoo.com",
+        "firstName": "Jayden",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "43fbb3c4-7e9c-4777-8987-5d88f06d2c2f",
+        "email": "Katherine82@yahoo.com",
+        "firstName": "Issac",
+        "lastName": "Hirthe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/937.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aa45a1a5-4c5c-471b-a7a7-ad48269bcfb0",
+        "email": "Michel60@hotmail.com",
+        "firstName": "Sigurd",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74897820",
+        "tenantId": null
+      },
+      {
+        "reference": "1daf9fa0-8612-467f-b5f0-05bcd68b547d",
+        "email": "Kaleb_Brown@yahoo.com",
+        "firstName": "Brenna",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1164.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a6811d9-3cda-4cbb-b5ff-1f45b209dab4",
+        "email": "Elias_Kohler26@hotmail.com",
+        "firstName": "Isaias",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/818.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "watch": [
+      {
+        "id": "d1792299-49f6-48d6-8d4d-235f95a1494f",
+        "model": "Classic",
+        "dial": "Black",
+        "time_setting": "Analog",
+        "created_at": "2023-08-30T19:13:22.422Z",
+        "updated_at": "2023-08-31T01:03:15.270Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "852f1efc-1fed-41b4-8b41-0350955f8cc3",
+        "model": "Sport",
+        "dial": "White",
+        "time_setting": "Digital",
+        "created_at": "2023-08-31T05:08:48.095Z",
+        "updated_at": "2023-08-30T16:02:49.575Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "101d97f7-698c-47c0-895b-87ea98f1526a",
+        "model": "Chronograph",
+        "dial": "Blue",
+        "time_setting": "Analog-Digital",
+        "created_at": "2023-08-30T23:55:40.480Z",
+        "updated_at": "2023-08-31T02:56:54.050Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "ae05f1d9-2e79-409c-a469-f220dfaa2645",
+        "model": "Automatic",
+        "dial": "Silver",
+        "time_setting": "Automatic",
+        "created_at": "2023-08-30T07:48:29.755Z",
+        "updated_at": "2023-08-30T19:28:23.222Z",
+        "manufacturer_id": "main_entity_pk"
+      },
+      {
+        "id": "c6d9fd97-1924-45fb-95ca-edd6732a3594",
+        "model": "Dress",
+        "dial": "Rose Gold",
+        "time_setting": "Quartz",
+        "created_at": "2023-08-30T11:06:16.247Z",
+        "updated_at": "2023-08-31T00:24:29.649Z",
+        "manufacturer_id": "main_entity_pk"
+      }
+    ],
+    "health_check": [
+      {
+        "id": "11315c3e-89a6-422c-8ff1-0b824847f5ad",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-31T03:08:04.177Z",
+        "updated_at": "2023-08-30T09:55:23.871Z",
+        "watch_id": "c6d9fd97-1924-45fb-95ca-edd6732a3594"
+      },
+      {
+        "id": "7501661f-5777-46f5-b52c-3b2334ad1a2a",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-30T11:28:32.079Z",
+        "updated_at": "2023-08-30T12:03:44.187Z",
+        "watch_id": "c6d9fd97-1924-45fb-95ca-edd6732a3594"
+      },
+      {
+        "id": "a23c5956-6af0-46d8-b308-ff9c5b6e9aa9",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T23:53:14.373Z",
+        "updated_at": "2023-08-30T18:52:04.212Z",
+        "watch_id": "d1792299-49f6-48d6-8d4d-235f95a1494f"
+      },
+      {
+        "id": "ffe63214-5e00-4dac-8043-0a3ce3476979",
+        "heart_rate": false,
+        "spo2": true,
+        "created_at": "2023-08-30T17:17:37.832Z",
+        "updated_at": "2023-08-31T03:14:13.069Z",
+        "watch_id": "852f1efc-1fed-41b4-8b41-0350955f8cc3"
+      },
+      {
+        "id": "fa56bb05-0db4-4473-9704-5f5046d8a681",
+        "heart_rate": true,
+        "spo2": false,
+        "created_at": "2023-08-30T14:24:05.948Z",
+        "updated_at": "2023-08-31T06:22:39.395Z",
+        "watch_id": "d1792299-49f6-48d6-8d4d-235f95a1494f"
+      }
+    ],
+    "customer": [
+      {
+        "id": "5d959395-8326-497e-b21e-50228bfc3b74",
+        "first_name": "David",
+        "last_name": "Johnson",
+        "email": "david.johnson@gmail.com",
+        "password": "P@ssw0rd",
+        "created_at": "2023-08-31T04:44:49.016Z",
+        "updated_at": "2023-08-30T12:30:31.700Z",
+        "watch_id": "d1792299-49f6-48d6-8d4d-235f95a1494f"
+      },
+      {
+        "id": "7ec394b8-a6c3-4c27-889c-32553050d1d8",
+        "first_name": "Emily",
+        "last_name": "Brown",
+        "email": "emily.brown@yahoo.com",
+        "password": "Secure123",
+        "created_at": "2023-08-31T03:14:05.609Z",
+        "updated_at": "2023-08-31T04:46:36.729Z",
+        "watch_id": "ae05f1d9-2e79-409c-a469-f220dfaa2645"
+      },
+      {
+        "id": "8bed2fb4-4e6e-4632-828d-9d18de7ce40b",
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "email": "daniel.smith@hotmail.com",
+        "password": "SecretPass",
+        "created_at": "2023-08-30T19:30:00.323Z",
+        "updated_at": "2023-08-30T08:01:44.555Z",
+        "watch_id": "ae05f1d9-2e79-409c-a469-f220dfaa2645"
+      },
+      {
+        "id": "de346e64-94bf-4827-a444-9371d92f465a",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "email": "olivia.davis@gmail.com",
+        "password": "StrongPassword",
+        "created_at": "2023-08-31T02:10:10.469Z",
+        "updated_at": "2023-08-30T16:10:26.108Z",
+        "watch_id": "c6d9fd97-1924-45fb-95ca-edd6732a3594"
+      },
+      {
+        "id": "ed054f3d-3c0f-4379-bbb2-9e34c4e035ea",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "email": "sophia.wilson@yahoo.com",
+        "password": "12345678",
+        "created_at": "2023-08-30T14:25:55.533Z",
+        "updated_at": "2023-08-30T21:56:47.311Z",
+        "watch_id": "101d97f7-698c-47c0-895b-87ea98f1526a"
+      }
+    ],
+    "bluetooth": [
+      {
+        "id": "265dbb4d-a4de-4902-aeac-feb7268a15fb",
+        "connectivity": true,
+        "created_at": "2023-08-31T01:32:28.563Z",
+        "updated_at": "2023-08-30T17:36:49.414Z",
+        "bandwidth": "2.4 GHz",
+        "watch_id": "c6d9fd97-1924-45fb-95ca-edd6732a3594"
+      },
+      {
+        "id": "e803f48c-ceda-4124-b55d-2a7e884d2a9e",
+        "connectivity": true,
+        "created_at": "2023-08-30T21:15:48.697Z",
+        "updated_at": "2023-08-30T14:09:34.611Z",
+        "bandwidth": "5 GHz",
+        "watch_id": "101d97f7-698c-47c0-895b-87ea98f1526a"
+      },
+      {
+        "id": "5221a973-09f3-44aa-83fb-5380dc3e6fbd",
+        "connectivity": false,
+        "created_at": "2023-08-30T07:34:02.520Z",
+        "updated_at": "2023-08-30T20:16:53.588Z",
+        "bandwidth": "Bluetooth 4.0",
+        "watch_id": "852f1efc-1fed-41b4-8b41-0350955f8cc3"
+      },
+      {
+        "id": "1bcd176f-0229-47da-91fc-1d831f05c27a",
+        "connectivity": false,
+        "created_at": "2023-08-30T11:53:42.558Z",
+        "updated_at": "2023-08-31T05:08:00.725Z",
+        "bandwidth": "Bluetooth 5.0",
+        "watch_id": "d1792299-49f6-48d6-8d4d-235f95a1494f"
+      },
+      {
+        "id": "bc63138f-493a-4778-95c9-a2eef9e5614f",
+        "connectivity": false,
+        "created_at": "2023-08-31T00:57:39.253Z",
+        "updated_at": "2023-08-30T19:51:26.166Z",
+        "bandwidth": "Wireless",
+        "watch_id": "d1792299-49f6-48d6-8d4d-235f95a1494f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "185d3923-56b8-4ec2-b912-d674f49a7470",
+        "email": "Karley57@gmail.com",
+        "firstName": "Rudolph",
+        "lastName": "Bayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1119.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec9f95ba-3617-4c04-b1d2-09b0bdb1c80d",
+        "email": "Charley94@yahoo.com",
+        "firstName": "Montana",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7892268",
+        "tenantId": null
+      },
+      {
+        "reference": "b6e82e13-f9cb-4789-9618-c003ac8422a3",
+        "email": "Gerson_Hackett27@yahoo.com",
+        "firstName": "Declan",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5a6e2f32-fbb2-4341-be59-c1c727617d60",
+        "email": "Ross_Legros9@gmail.com",
+        "firstName": "Kattie",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/291.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec9b1bdf-ac10-4356-a481-e298290c9874",
+        "email": "Vaughn_Sipes@gmail.com",
+        "firstName": "Dorian",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/928.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
